@@ -1,0 +1,58 @@
+{
+ "head": "head",
+ "portraitScale": 0.8,
+ "portraitTranslation": [ -1, 4.8, 0 ],
+ "profileScale": 0.2,
+ "profileTranslation": [ 0, 1.4, 0.5 ],
+ "faint": "bedrock(lugia, faint, true)",
+ "cry":  "bedrock(lugia, cry, true)",
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 1,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "animations": [
+       "bedrock(lugia, ground_idle)"
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 1,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(lugia, ground_walk)" ]
+   },
+   "hovering": {
+     "poseName": "hovering",
+     "transformTicks": 1,
+     "poseTypes": ["HOVER"],
+     "animations": [
+       "bedrock(lugia, air_idle)"
+     ]
+   },
+   "flying": {
+     "poseName": "flying",
+     "transformTicks": 1,
+     "poseTypes": [ "FLY" ],
+     "animations": [ "bedrock(lugia, air_fly)" ]
+   },
+   "floating": {
+     "poseName": "floating",
+     "transformTicks": 1,
+     "poseTypes": ["FLOAT"],
+     "animations": [
+       "bedrock(lugia, water_idle)"
+     ]
+   },
+   "swimming": {
+     "poseName": "swimming",
+     "transformTicks": 1,
+     "poseTypes": [ "SWIM" ],
+     "animations": [ "bedrock(lugia, water_swim)" ]
+   }
+ }
+}

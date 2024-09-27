@@ -1,0 +1,8 @@
+{
+   "pokemon.hooh.cry": {
+       "sounds": ["cobblemon:pokemon/hooh/hooh_cry"]
+   },
+   "pokemon.lugia.cry": {
+       "sounds": ["cobblemon:pokemon/lugia/lugia_cry"]
+   }
+}

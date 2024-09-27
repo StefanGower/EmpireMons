@@ -1,0 +1,19 @@
+{
+ "target": "cobblemon:hooh",
+ "behaviour": {
+   "moving": {
+     "walk": {
+       "canWalk": true
+     },
+     "fly": {
+       "canFly": true
+     }
+   }
+ },
+ "baseScale": 2,
+ "hitbox": {
+   "width": 1.6,
+   "height": 2.7,
+   "fixed": false
+ }
+}

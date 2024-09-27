@@ -1,0 +1,26 @@
+{
+ "target": "cobblemon:lugia",
+"behaviour": {
+    "moving": {
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.5
+      }
+    }
+  },
+ "baseScale": 0.9,
+ "hitbox": {
+   "width": 3,
+   "height": 7,
+   "fixed": false
+ }
+}
